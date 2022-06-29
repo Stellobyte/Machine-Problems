@@ -5,6 +5,11 @@ public class Main {
         try (Scanner get = new Scanner(System.in)) {
             int choice = get.nextInt();
 
+            System.out.println("1. Calculates four number inputs.");
+            System.out.println("2. See if the number is odd or even.");
+            System.out.println("3. Determines the highest and lowest number.");
+            System.out.println("4. Fare price per age bracket.");
+
             switch (choice) {
                 case 1:
                     FirstProblem.MachineProblemOne();
