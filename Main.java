@@ -24,7 +24,9 @@ public class Main {
                 case 4:
                     ForthProblem.MachineProblemFour();
                     break;
-
+                case 5:
+                    FifthProblem.MachineProblemFive();
+                    break;
             }
         }
     }
